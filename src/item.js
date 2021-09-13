@@ -16,7 +16,7 @@ function item() {
       <Card className="border-0 mt-3">
         <Row>
           <Col md={10}>
-            <CardTitle tag="h5">Special Title Treatment</CardTitle>
+            <CardTitle tag="h5">Onion Powder Granulated</CardTitle>
             <CardText className="mt-5">₹ 100</CardText>
           </Col>
           <Col md={2}>

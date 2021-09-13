@@ -9,8 +9,10 @@ import {
   Col,
 } from "reactstrap";
 import Item from "./item";
+import Cart from './cart.js'
 
-function home() {
+
+function Home() {
   return (
     <>
       <Row>
@@ -19,10 +21,12 @@ function home() {
           <div className="dropdown-divider"></div>
           <Item />
         </Col>
-        <Col></Col>
+        <Col>
+            <Cart />
+        </Col>
       </Row>
     </>
   );
 }
 
-export default home;
+export default Home;
